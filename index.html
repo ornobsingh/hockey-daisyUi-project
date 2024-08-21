@@ -21,6 +21,31 @@
       }
     }
   </script>
+  <style>
+    .junior-program {
+      background-image: url(./Images/2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: brightness(90%);
+    }
+
+    .senior-program {
+      background-image: url(./Images/3.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: brightness(90%);
+    }
+
+    .prof-program {
+      background-image: url(./Images/4.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: brightness(90%);
+    }
+  </style>
 </head>
 
 <body>
@@ -60,7 +85,8 @@
             stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-          </svg> <a class="btn bg-hockey_primary text-white text-lg">Get Ticket</a>
+          </svg>
+          <a class="btn bg-hockey_primary text-white text-lg">Get Ticket</a>
         </div>
       </div>
     </nav>
@@ -104,7 +130,7 @@
       </div>
     </div>
   </header>
-  <main class="w-11/12 mx-auto">
+  <main class="w-11/12 mx-auto px-12 md:px-0">
     <!-- stat section -->
     <section class="my-24">
       <div class="border-y-2 border-dashed py-10 text-center flex flex-col justify-center items-center">
@@ -112,11 +138,12 @@
         <p class="text-gray-500 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
           dolor. Purus urna in sit nullam proin. </p>
       </div>
-      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         <div class="flex flex-col justify-center items-center py-6 space-y-3">
           <div class="relative">
             <div class="z-50 radial-progress text-hockey_primary" style="--value:87;" role="progressbar">87%</div>
-            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:87;" role="progressbar"></div>
+            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:87;"
+              role="progressbar"></div>
           </div>
           <h6 class="text-xl font-semibold">Prayer Facility</h6>
           <p>Condimentum dignissim adipiscing</p>
@@ -124,7 +151,8 @@
         <div class="flex flex-col justify-center items-center py-6 space-y-3">
           <div class="relative">
             <div class="z-50 radial-progress text-green-700" style="--value:87;" role="progressbar">95%</div>
-            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:95;" role="progressbar"></div>
+            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:95;"
+              role="progressbar"></div>
           </div>
           <h6 class="text-xl font-semibold">Experienced Coach</h6>
           <p>Condimentum dignissim adipiscing</p>
@@ -132,7 +160,8 @@
         <div class="flex flex-col justify-center items-center py-6 space-y-3">
           <div class="relative">
             <div class="z-50 radial-progress text-yellow-500" style="--value:87;" role="progressbar">90%</div>
-            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:90;" role="progressbar"></div>
+            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:90;"
+              role="progressbar"></div>
           </div>
           <h6 class="text-xl font-semibold">Senior Player</h6>
           <p>Condimentum dignissim adipiscing</p>
@@ -140,13 +169,46 @@
         <div class="flex flex-col justify-center items-center py-6 space-y-3">
           <div class="relative">
             <div class="z-50 radial-progress text-blue-700" style="--value:87;" role="progressbar">80%</div>
-            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:80;" role="progressbar"></div>
+            <div class="absolute top-0 left-0 rotate-90 radial-progress text-gray-300" style="--value:80;"
+              role="progressbar"></div>
           </div>
           <h6 class="text-xl font-semibold">Training Ground</h6>
           <p>Condimentum dignissim adipiscing</p>
         </div>
       </div>
     </section>
+
+    <!-- Programs section -->
+    <sectFion class="my-24">
+      <div class="py-10 text-center flex flex-col justify-center items-center">
+        <h3 class="text-3xl font-bold mb-3">Program Sections</h3>
+        <p class="text-gray-500 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+          dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="w-full junior-program p-12 rounded-xl text-gray-50">
+          <h5 class="text-2xl font-semibold ">Junior Program</h5>
+          <p class="font-medium text-gray-100">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+          <a class="btn bg-hockey_primary text-white text-lg">Register Now!</a>
+        </div>
+        <div class="w-full senior-program p-12 rounded-xl text-gray-50">
+          <h5 class="text-2xl font-semibold ">Senior Program</h5>
+          <p class="font-medium text-gray-100">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+          <a class="btn bg-hockey_primary text-white text-lg">Register Now!</a>
+        </div>
+        <div class="w-full prof-program p-28 rounded-xl text-gray-50 lg:grid col-span-2">
+          <div class="items-start space-y-3">
+            <h5 class="text-2xl font-semibold ">Professional Program</h5>
+            <p class="font-medium text-gray-100">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <a class="btn bg-hockey_primary text-white text-lg">Register Now!</a>
+          </div>
+        </div>
+      </div>
+    </sectFion>
 
   </main>
   <footer></footer>
